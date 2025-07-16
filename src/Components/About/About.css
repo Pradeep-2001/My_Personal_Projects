@@ -76,3 +76,47 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #e7961c -5.00%, #a023da 106.28%);
 }
+
+.about-achievements{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.about-achievement{
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-achievement h1{
+    font-size: 50px;
+    font-weight: 700 ;
+    background: linear-gradient(260deg, #e7961c -5.00%, #a023da 106.28%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about-achievement p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+.about-achievement:hover{
+    transform: scale(1.2);
+    transition: 0.9s;
+}
+
+
+
+

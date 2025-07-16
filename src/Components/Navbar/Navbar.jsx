@@ -11,10 +11,9 @@ const Navbar = () => {
             <li>About me</li>
             <li>Experience</li>
             <li>Portfolio</li>
-
             <li>Contact me</li>
         </ul>
-        <div className="nav-connect">Connect With Me</div>
+        <div className="nav-connect" onClick={()=>alert("clicked connect with me")}>Connect With Me</div>
         </div>
   )
 }
