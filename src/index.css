@@ -9,3 +9,6 @@ body{
   color: white;
 }
 
+section {
+  scroll-margin-top: 90px; /* match your floating navbar height */
+}

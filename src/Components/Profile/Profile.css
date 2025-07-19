@@ -9,7 +9,9 @@
     margin-top: 100px;
     border-radius: 50%;
     width: 290px; 
-    height: 300px;
+    height: 300px; 
+    object-fit: cover;      /* Maintain aspect ratio and fill */
+  object-position: center -0%; 
 }
 
 .profile h2{
@@ -28,7 +30,7 @@
 }
 
 .profile-action{
-    gap: 150px;
+    gap: 70px;
     display: flex;
     align-items: center;
     font-size: 24px;

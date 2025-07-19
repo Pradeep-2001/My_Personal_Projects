@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 30px 170px;
 }
 
 .about-left{
@@ -17,7 +17,9 @@
     margin-top: 10px;
     border-radius: 50%;
     width: 290px; 
-    height: 300px;
+    height: 320px;
+    object-fit: cover;      /* Maintain aspect ratio and fill */
+  object-position: center -0%; 
     
 }
 

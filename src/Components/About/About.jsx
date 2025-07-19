@@ -1,11 +1,10 @@
 import React from 'react'
 import "./About.css"
-import theme from "../../assets/theme_pattern.svg"
-import profile_img from "../../assets/profile_img.jpeg"
+import profile_img from "../../assets/profile_image_portfolio.jpg"
 
 const About = () => {
   return (
-    <div className='about'>
+    <section id='about' className='about'>
         <div className="about-title">
             <h1>About Me</h1>
         </div>
@@ -38,7 +37,7 @@ const About = () => {
           
          
         </div>
-    </div>
+    </section>
   )
 }
 
