@@ -62,3 +62,25 @@
     transform: scale(1.05);
 
 }
+
+
+
+@media(max-width:768px){
+    .profile img{
+        margin-bottom: 120px;
+        width: 100%;
+    }
+
+    .profile h2{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .profile p{
+        width: 60%;
+    }
+}
+
+
+
