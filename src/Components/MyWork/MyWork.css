@@ -73,3 +73,46 @@
   font-size: 12px;
   font-weight: 500;
 }
+
+
+@media(max-width:768px) {
+
+  .mywork{
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+    padding: 0px;
+  }
+  
+  .mywork-title{
+    text-align: start;
+  }
+  
+  .mywork-title h1{
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .work-card{
+    padding: 0px;
+    line-height: 30px;
+    
+  }
+
+  .mywork-container{
+    padding: 0px;
+  }
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
