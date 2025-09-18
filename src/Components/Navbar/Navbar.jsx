@@ -14,6 +14,9 @@ const Navbar = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setMenu(sectionId);
+      if (window.innerWidth < 768 && menuRef.current) {
+      menuRef.current.style.right = "-350px";
+    }
     }
   };
 
